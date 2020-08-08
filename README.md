@@ -13,3 +13,12 @@ In order to avoid the ./prefix each time a program is to be executed, insert the
 <code>export PATH=.:$PATH</code>
 	
 This step needs only to be done once.
+
+<h3>A simpler way to run a program depends on the system you are using.</h3>
+If on UNIX system, simply run:
+
+<code>$ cc hello.c</code>
+
+The compilation will proceed, and will make an executable file called `a.out`, that you can run.
+
+<code>$ a.out</code>
