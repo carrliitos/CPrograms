@@ -3,7 +3,8 @@
 
 main() {
 	// variables
-	int fahr, celsius;
+	int fahr;
+	double celsius;
 	int lower, upper, step;
 
 	// Assignment statements (initializing our variables)
@@ -16,7 +17,7 @@ main() {
 	printf("Fahrenheit\tCelsius\n");
 	while(fahr >= upper) {
 		celsius = 5 * (fahr - 32) / 9; // O(1)
-		printf("%d\t\t%d\n", fahr, celsius); // O(1)
+		printf("%3d\t\t%6.1f\n", fahr, celsius); // O(1)
 		fahr = fahr - step; // O(1)
 	}
 }
