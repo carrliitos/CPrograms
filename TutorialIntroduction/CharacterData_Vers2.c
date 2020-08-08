@@ -9,7 +9,7 @@
 */
 
 #include <stdio.h>
-// Copy input to output; 1st version
+// Copy input to output; 2nd version
 main() {
 	int c;
 	// read a character
