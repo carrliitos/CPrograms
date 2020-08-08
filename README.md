@@ -10,6 +10,7 @@ This command will invoke the GNU C compiler to compile the file hello.c and outp
 
 ## Optional Step:
 In order to avoid the ./prefix each time a program is to be executed, insert the following as the last line in the file .profile(located in your home folder):
+
 <code>export PATH=.:$PATH</code>
 	
 This step needs only to be done once.
