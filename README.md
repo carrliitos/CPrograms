@@ -23,3 +23,8 @@ If on UNIX system, simply run:
 The compilation will proceed, and will make an executable file called `a.out`, that you can run.
 
 <code>$ a.out</code>
+
+# Table of contents
+- [x] Getting Started
+	- [x] [How to compile and execute a program](https://github.com/carrliitos/CPrograms#c-programming-practice)
+	- [x] [Hello world!](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/hello.c)
