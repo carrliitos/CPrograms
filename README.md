@@ -24,8 +24,6 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 
 <code>$ a.out</code>
 
-# [Textbook (e-book version)](http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf)
-
 # Table of contents
 - [ ] Chapter 1
 	- [x] Getting Started
@@ -53,3 +51,5 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 	- [ ] Character Arrays
 	- [ ] External Variables and Scope
 - [ ] Chapter 2
+
+## [Textbook (e-book version)](http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf)
