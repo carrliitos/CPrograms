@@ -25,7 +25,7 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 <code>$ a.out</code>
 
 # Table of contents
-- [x] Chapter 1
+- [x] Basics
 	- [x] Getting Started
 		- [x] [How to compile and execute a program](https://github.com/carrliitos/CPrograms#c-programming-practice)
 		- [x] [Hello world!](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/hello.c)
@@ -52,6 +52,6 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 	- [x] Arguments - Call by Value
 	- [x] [Character Arrays](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/CharacterArray.c)
 	- [x] External Variables and Scope
-- [ ] Chapter 2
+- [ ] Data Structures and Algorithms implemented in C
 
 ## [Textbook (e-book version)](http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf)
