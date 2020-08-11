@@ -45,11 +45,13 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 			- [x] [Counting characters in input version 2](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/CharacterCounting_Vers2.c)
 		- [x] [Line Counting](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/LineCounting.c)
 		- [x] [Word Counting](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/WordCounting.c)
-	- [ ] Arrays
-	- [ ] Functions
-	- [ ] Arguments - Call by Value
-	- [ ] Character Arrays
-	- [ ] External Variables and Scope
+	- [x] Arrays
+		- [x] [Counting occurences](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/NumberOfOccurrences.c)
+	- [x] Functions
+		- [x] [function power()](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PowerFunction.c)
+	- [x] Arguments - Call by Value
+	- [x] [Character Arrays](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/CharacterArray.c)
+	- [x] External Variables and Scope
 - [ ] Chapter 2
 
 ## [Textbook (e-book version)](http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf)
