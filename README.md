@@ -25,7 +25,7 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 <code>$ a.out</code>
 
 # Table of contents
-- [ ] Chapter 1
+- [x] Chapter 1
 	- [x] Getting Started
 		- [x] [How to compile and execute a program](https://github.com/carrliitos/CPrograms#c-programming-practice)
 		- [x] [Hello world!](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/hello.c)
