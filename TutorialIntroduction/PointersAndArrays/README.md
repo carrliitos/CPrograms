@@ -18,4 +18,15 @@
 	- (very similar to how references work in JAVA)
 - The unary operator `*` is the *indirection* or *dereferencing* operator
 	- when applied to a pointer, it access the object the pointer points to. (Mind. Blown.)
-- One example of how to declare a pointer is [here]()
+- One example of how to declare a pointer is [here](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/DeclareAPointer.c)
+	- `int *ip;` is intended as a mnemonic; it says, "*the expression *ip is an int*"
+	- The syntax of the declaration for a variable mimics the syntax of expression in which the variable might appear.
+	Similarly, this same syntax is applied to function declarations;
+	- `double *dp, atof(char *);`
+		- this says that "*an expression `*dp` and `atof(s)` have values of `double`, and that argument of `atof()` is a pointer to `char`*".
+- Important note: **Every pointer points to a specific data type**
+- More examples:
+	
+	- `*ip = *ip + 10;`
+
+		- If `ip` points to the integer `x`, then `*ip` can occur in any context where `x` could, so the above code increments `*ip` by 10.
