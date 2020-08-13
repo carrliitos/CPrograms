@@ -52,19 +52,7 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 	- [x] Arguments - Call by Value
 	- [x] [Character Arrays](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/CharacterArray.c)
 	- [x] External Variables and Scope
-- [ ] Pointers and Arrays
-	- [ ] Pointers and addresses
-	- [ ] Pointers and Function Arguments
-	- [ ] Pointers and Arrays
-	- [ ] Address Arithmetic
-	- [ ] Character Pointers and Functions
-	- [ ] Pointer Arrays; Pointers to Pointers
-	- [ ] Multi-dimensional Arrays
-	- [ ] Initialization of Pointer Arrays
-	- [ ] Pointers vs. Multi-dimensioanl Arrays
-	- [ ] Command-line Arguments
-	- [ ] Pointers to Functions
-	- [ ] Complicated Declarations
+- [ ] [Pointers and Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses)
 - [ ] Data Structures and Algorithms implemented in C
 
 ## [Textbook (e-book version)](http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf)
