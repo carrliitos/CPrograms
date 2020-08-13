@@ -1,4 +1,7 @@
-# Pointers and Arrays
+# Table of contents
+- [Pointers And Arrays]()
+
+## Pointers and Arrays
 - `Pointer`
 	- a variable that contains the address of a variable.
 	- used a lot in C because they sometimes are the only way to express a computation
@@ -30,3 +33,6 @@
 	- `*ip = *ip + 10;`
 
 		- If `ip` points to the integer `x`, then `*ip` can occur in any context where `x` could, so the above code increments `*ip` by 10.
+		- The unary operators `*` and `&` bind more tightly than arithmetic operators, so the assignment `y = *ip + 1` takes whatever `ip` points at, adds 1, and assigns the result to `y`, while `*ip += 1` increments what `ip` points to, as do `++*ip` and `(*ip)++`.
+
+### Pointers and Function Arguments
