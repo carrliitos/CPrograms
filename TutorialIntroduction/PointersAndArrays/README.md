@@ -1,5 +1,7 @@
 # Table of contents
-- [Pointers And Arrays]()
+- [Pointers And Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
+- [Pointers and Addresses](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses)
+-[Pointers and Function Arguments](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-function-arguments)
 
 ## Pointers and Arrays
 - `Pointer`
@@ -34,5 +36,24 @@
 
 		- If `ip` points to the integer `x`, then `*ip` can occur in any context where `x` could, so the above code increments `*ip` by 10.
 		- The unary operators `*` and `&` bind more tightly than arithmetic operators, so the assignment `y = *ip + 1` takes whatever `ip` points at, adds 1, and assigns the result to `y`, while `*ip += 1` increments what `ip` points to, as do `++*ip` and `(*ip)++`.
+
+#### Summarizing `*` and `&`
+- **`*` abd `&` as *type modifiers***
+	- `int i` declares an int
+	- `int *p` declares a pointer to an int
+	- `int &r = 1` declares a reference to an int, and initializes it to reference `i`
+		- *C++ only. Note that references must be assignet at initialization, therefore `int &r`; is not possible*
+Similarly:
+	- `void foo(int i)` declares a function taking an int (by value, i.e. as a copy)
+	- `void foo(int *p)` declares a function taking a pointer to an int
+	- `void foo(int &r)` declares a function taking an int by reference (Again, C++ only)
+
+- **`*` and `&` as *operators***
+	- `foo(i)` calls `foo(int i)`. The parameter is passes as a copy
+	- `foo(*p)` derefences the int pointer `p` and calls `foo(int i)` with int pointer to by `p`
+	- `foo(&i)` takes the address of the int `i` and calls `foo(int *i)` with that address
+(**tl;dr**):
+	- `*` can be either a dereference operator, or part of the pointer declaration syntax
+	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax
 
 ### Pointers and Function Arguments
