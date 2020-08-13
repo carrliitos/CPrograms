@@ -2,8 +2,9 @@
 - [Pointers And Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
 - [Pointers and Addresses](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses)
 - [Pointers and Function Arguments](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-function-arguments)
+- [Pointers and Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
 
-## Pointers and Arrays
+## What is a pointer?
 - `Pointer`
 	- a variable that contains the address of a variable.
 	- used a lot in C because they sometimes are the only way to express a computation
@@ -61,5 +62,5 @@
 - To obtain the desired effect, we do the correct function call as `swap(&a, &b);` where `&a` and `&b` are pointers to `a` and `b` since `&` produces the address of a variable.
 - Example of a `swap()` function where the parameters are declared as pointers can be seen [here](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/Swap.c) and [visually](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/img/swap.png)
 - Pointer arguments enable a function to access and change objects in the function that called it.
-- [Example](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/GetInt.c)
+	- [Example](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/GetInt.c)
 
