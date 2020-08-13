@@ -59,4 +59,7 @@
 ### Pointers and Function Arguments
 - C passes arguments to functions **by value**, therefore there is no direct way for the called function to alter the variable in the calling function. Hence, the function call `swap(a, b)`, where `swap()` is a function that swaps the values of both variables, is incorrect. 
 - To obtain the desired effect, we do the correct function call as `swap(&a, &b);` where `&a` and `&b` are pointers to `a` and `b` since `&` produces the address of a variable.
-- Example of a `swap()` function where the parameters are declared as pointers can be seen [here](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/Swap.c) and [visually]()
+- Example of a `swap()` function where the parameters are declared as pointers can be seen [here](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/Swap.c) and [visually](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/img/swap.png)
+- Pointer arguments enable a function to access and change objects in the function that called it.
+- [Example](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/GetInt.c)
+
