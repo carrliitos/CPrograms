@@ -1,7 +1,7 @@
 # Table of contents
 - [Pointers And Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
 - [Pointers and Addresses](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses)
--[Pointers and Function Arguments](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-function-arguments)
+- [Pointers and Function Arguments](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-function-arguments)
 
 ## Pointers and Arrays
 - `Pointer`
@@ -24,7 +24,7 @@
 - The unary operator `*` is the *indirection* or *dereferencing* operator
 	- when applied to a pointer, it access the object the pointer points to. (Mind. Blown.)
 - One example of how to declare a pointer is [here](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/DeclareAPointer.c)
-	- `int *ip;` is intended as a mnemonic; it says, "*the expression *ip is an int*"
+	- `int *ip;` is intended as a mnemonic; it says, "*the expression `*ip` is an int*"
 	- The syntax of the declaration for a variable mimics the syntax of expression in which the variable might appear.
 	Similarly, this same syntax is applied to function declarations;
 	- `double *dp, atof(char *);`
@@ -57,3 +57,6 @@
 	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax	
 
 ### Pointers and Function Arguments
+- C passes arguments to functions **by value**, therefore there is no direct way for the called function to alter the variable in the calling function. Hence, the function call `swap(a, b)`, where `swap()` is a function that swaps the values of both variables, is incorrect. 
+- To obtain the desired effect, we do the correct function call as `swap(&a, &b);` where `&a` and `&b` are pointers to `a` and `b` since `&` produces the address of a variable.
+- Example of a `swap()` function where the parameters are declared as pointers can be seen [here]()
