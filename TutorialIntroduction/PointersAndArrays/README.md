@@ -74,4 +74,5 @@
 
  		pa = &a[0]; // we set pa to point to element 0 of a; that is, pa contains the address of a[0]
  	</code>
- 	![pa assignment](./img/pa.png)
+ 	
+- ![pa assignment](./img/pa.png)
