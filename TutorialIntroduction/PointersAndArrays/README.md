@@ -1,5 +1,5 @@
 # Table of contents
-- [Pointers And Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
+- [What is a pointer?](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#what-is-a-pointer)
 - [Pointers and Addresses](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses)
 - [Pointers and Function Arguments](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-function-arguments)
 - [Pointers and Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
@@ -64,3 +64,14 @@
 - Pointer arguments enable a function to access and change objects in the function that called it.
 	- [Example](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/GetInt.c)
 
+### Pointers and Arrays
+ - The pointer version will in general be faster, but until initiated, will be somewhat harder to understand.
+ - Example:
+
+ 	<code>
+ 		int a[10]; // we declare an array a of size 10
+ 		int* pa; // we declare pa as a pointer to an integer
+
+ 		pa = &a[0]; // we set pa to point to element 0 of a; that is, pa contains the address of a[0]
+ 	</code>
+ 	![pa assignment](./img/pa.png)
