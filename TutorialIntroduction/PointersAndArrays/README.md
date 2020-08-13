@@ -43,7 +43,7 @@
 	- `int *p` declares a pointer to an int
 	- `int &r = 1` declares a reference to an int, and initializes it to reference `i`
 		- *C++ only. Note that references must be assignet at initialization, therefore `int &r`; is not possible*
-Similarly:
+- Similarly:
 	- `void foo(int i)` declares a function taking an int (by value, i.e. as a copy)
 	- `void foo(int *p)` declares a function taking a pointer to an int
 	- `void foo(int &r)` declares a function taking an int by reference (Again, C++ only)
@@ -52,8 +52,8 @@ Similarly:
 	- `foo(i)` calls `foo(int i)`. The parameter is passes as a copy
 	- `foo(*p)` derefences the int pointer `p` and calls `foo(int i)` with int pointer to by `p`
 	- `foo(&i)` takes the address of the int `i` and calls `foo(int *i)` with that address
-(**tl;dr**):
+- (**tl;dr**):
 	- `*` can be either a dereference operator, or part of the pointer declaration syntax
-	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax
+	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax	
 
 ### Pointers and Function Arguments
