@@ -87,3 +87,6 @@
 - Note: one difference between an array name and a pointer;
 	- A **pointer** is a variable, so `pa = a` and `pa++` are legal.
 	- An **array name** is not a variable; constructors like `a = pa` and `a++` are illegal
+
+- When an array name is passed to a function, what is passed is the location of the initial element.
+- [Example]()
