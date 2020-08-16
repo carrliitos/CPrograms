@@ -91,3 +91,17 @@
 - When an array name is passed to a function, what is passed is the location of the initial element.
 - [Example](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/ArrayPassedToFunction.c)
 - Formal parameters in a function definition, `char s[];` and `char *s;` are equivalent; we prefer the latter because it says more explicitly that the variable is a pointer.
+
+### Address Arithmetic
+- Simplest forms of pointer or address arithmetic:
+	- if `p` is a pointer, then `p++` increments p to point to the next element, and `p += i` increments it to point i elements beyond where it currently does. 
+- We illustrate with a rudimentary [storage allocator](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/StorageAllocator.c)
+	- There are two routines:
+		- `alloc(n)` returns a pointer to n consecutive character positions, which can be used by the caller of `alloc()` for storing characters.
+		- `afree(p)` releases the storage thus acquired so it can be re-used later.
+	- calls to `afree()` must be made in the opposite order to the calls made on `alloc()` -- the storage managed by both functions is a **stack**.
+	- The easiest implementation is to have `alloc()` hand out pieces of a large character array that we will call `allocbuf[]`. This is a **private** array to `alloc()` and `afree()` -- which means we can declare it as static.
+		- How much `allocbuf[]` has been used is needed.
+		- we accomplish this by using a pointer called `allocp` that points to the next free element.
+
+![Example](./img/alloc.png)
