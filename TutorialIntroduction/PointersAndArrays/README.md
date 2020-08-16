@@ -3,7 +3,7 @@
 - [x] [Pointers and Addresses](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses)
 - [x] [Pointers and Function Arguments](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-function-arguments)
 - [x] [Pointers and Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
-- [ ] Address Arithmetic
+- [x] [Address Arithmetic](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#address-arithmetic)
 - [ ] Character Pointers and Functions
 - [ ] Pointer Arrays; Pointers to Pointers
 - [ ] Multi-dimensional Arrays
