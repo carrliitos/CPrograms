@@ -105,3 +105,6 @@
 		- we accomplish this by using a pointer called `allocp` that points to the next free element.
 
 ![Example](./img/alloc.png)
+
+- [Pointer subtraction](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/PointerSubtraction.c) is also valid.
+	- if `p` and `q` point to elements of the same array, and `p < q`, then `q - p + 1` is the number of elements from `p` to `q` inclusive.
