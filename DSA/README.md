@@ -1,2 +1,4 @@
 ## Table of Contents
-- [Array Positions](./src/ArrayPositioons.c)
+- Array Positions
+	- [src](./src/ArrayPositions.c)
+	- [output](./outputTXT/ArrayPositions.txt)
