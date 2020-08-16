@@ -89,4 +89,4 @@
 	- An **array name** is not a variable; constructors like `a = pa` and `a++` are illegal
 
 - When an array name is passed to a function, what is passed is the location of the initial element.
-- [Example]()
+- [Example](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/ArrayPassedToFunction.c)

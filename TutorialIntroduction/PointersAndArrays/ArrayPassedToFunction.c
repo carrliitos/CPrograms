@@ -3,6 +3,9 @@
 	a pointer, that is, a variable containing an address.
 */
 
+#include <stdio.h>
+#include <string.h>
+
 /* strlen(): returns the length of the string s */
 int srlen(char *s) {
 	int n;
@@ -10,4 +13,13 @@ int srlen(char *s) {
 		n++;
 	}
 	return n;
+}
+
+int main() {
+	strlen("Hello, world"); // String constant
+	// strlen(array); 
+	// strlen(ptr);
+
+	// all of these calls will work
+	return 0;
 }
