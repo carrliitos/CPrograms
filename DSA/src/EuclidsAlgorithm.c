@@ -11,7 +11,9 @@
 
 #include <stdio.h>
 int gcd(int u, int v) {
+	// create a temporary variable
 	int t;
+	// Ensure that u >= v by exchanging them
 	while(u > 0) {
 		if(u < v) {
 			t = u;
@@ -24,7 +26,10 @@ int gcd(int u, int v) {
 
 main() {
 	int x, y;
-	while(scanf("%d %d", &x, &y) != EOF) {
+	/* scanf reads a line from the input and assigns the values found
+		to the variables given as arguments. Also, scanf refers to its
+		arguments "indirectly" -- pointers */
+	while(scanf("%d %d", &x, &y) != EOF) { // set EOF to true when theres no more input
 		if(x > 0 && y > 0) {
 			printf("%d %d %d\n", x, y, gcd(x, y));
 		}
