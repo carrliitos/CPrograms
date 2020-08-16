@@ -90,3 +90,4 @@
 
 - When an array name is passed to a function, what is passed is the location of the initial element.
 - [Example](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/PointersAndArrays/ArrayPassedToFunction.c)
+- Formal parameters in a function definition, `char s[];` and `char *s;` are equivalent; we prefer the latter because it says more explicitly that the variable is a pointer.
