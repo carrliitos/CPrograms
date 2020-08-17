@@ -29,7 +29,6 @@ inserts a new node on the front of the list.
 
 <code>
 	void push():
-
 		1. Allocate node
 
 		2. Put in the data
@@ -47,7 +46,6 @@ inserts a new node on the front of the list.
 
 <code>
 	void insertAfter():
-
 		1. Check if the given previous node is NULL
 
 		2. Allocate new node
