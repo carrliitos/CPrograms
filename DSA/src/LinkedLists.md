@@ -19,6 +19,7 @@
 - The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the Linked List.
 - For example if the given Linked List is `10->15->20->25` and we add an item 5 at the front, then the Linked List becomes `5->10->15->20->25`. 
 - Let us call the function that adds at the front of the list is `push()`. The `push()` must receive a pointer to the head pointer, because push must change the head pointer to point to the new node.
+- The *complexity* of `push()` is **O(1)** since it does constant amount of work.
 
 ![Adding in front](./img/AddingFront.png)
 
@@ -27,13 +28,33 @@ Given a reference (pointer to pointer) to the head of the list and an int,
 inserts a new node on the front of the list.
 
 <code>
-void push():
+	void push():
 
-	1. Allocate node
+		1. Allocate node
 
-	2. Put in the data
+		2. Put in the data
 
-	3. Make next of new node as head
+		3. Make next of new node as head
 
-	4. Move the head to point to the new node
+		4. Move the head to point to the new node
+</code>
+
+### Add a node after a given node
+- We are given pointer to a node, and the new node is inserted after the given node.
+- The *complexity* `insertAfter()` is **O(1)** as it does a constant amount of work.
+
+#### Algorithm
+
+<code>
+	void insertAfter():
+
+	1. Check if the given previous node is NULL
+
+	2. Allocate new node
+
+	3. Put in the data
+
+	4. Make next of new node as next of previous nod
+
+	5. Move the next of previous node as the new node
 </code>
