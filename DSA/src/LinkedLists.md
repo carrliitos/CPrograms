@@ -48,13 +48,13 @@ inserts a new node on the front of the list.
 <code>
 	void insertAfter():
 
-	1. Check if the given previous node is NULL
+		1. Check if the given previous node is NULL
 
-	2. Allocate new node
+		2. Allocate new node
 
-	3. Put in the data
+		3. Put in the data
 
-	4. Make next of new node as next of previous nod
+		4. Make next of new node as next of previous nod
 
-	5. Move the next of previous node as the new node
+		5. Move the next of previous node as the new node
 </code>
