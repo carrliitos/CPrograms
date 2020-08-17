@@ -57,7 +57,7 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 	- [x] Arguments - Call by Value
 	- [x] [Character Arrays](https://github.com/carrliitos/CPrograms/blob/master/TutorialIntroduction/CharacterArray.c)
 	- [x] External Variables and Scope
-- [ ] [Pointers and Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses)
-- [ ] Data Structures and Algorithms implemented in C
+- [ ] [Pointers and Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-addresses) *In Progress*
+- [ ] [Data Structures and Algorithms implemented in C](https://github.com/carrliitos/CPrograms/tree/master/DSA) *In Progress*
 
 ## [Textbook (e-book version)](http://www2.cs.uregina.ca/~hilder/cs833/Other%20Reference%20Materials/The%20C%20Programming%20Language.pdf)
