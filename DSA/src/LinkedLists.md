@@ -29,6 +29,7 @@ inserts a new node on the front of the list.
 
 <code>
 	void push():
+
 		1. Allocate node
 
 		2. Put in the data
@@ -40,12 +41,13 @@ inserts a new node on the front of the list.
 
 ### Add a node after a given node
 - We are given pointer to a node, and the new node is inserted after the given node.
-- The *complexity* `insertAfter()` is **O(1)** as it does a constant amount of work.
+- The *complexity* of `insertAfter()` is **O(1)** as it does a constant amount of work.
 
 #### Algorithm
 
 <code>
 	void insertAfter():
+
 		1. Check if the given previous node is NULL
 
 		2. Allocate new node
@@ -56,3 +58,30 @@ inserts a new node on the front of the list.
 
 		5. Move the next of previous node as the new node
 </code>
+
+### Add a node ad the end
+- The new node is always added after the last node of the given Linked List.
+- For example if the given Linked List is `5->10->15->20->25` and we add an item 30 at the end, then the Linked List becomes `5->10->15->20->25->30`.
+- Since a Linked List is typically represented by the head of it, we have to traverse the list till end and then change the next of last node to new node.
+- The *complexity* of `append()` is **O(n)** since we need to reach the end of the list.
+	- We can improve this by keep a pointer to the tail of the linked list.
+
+#### Algorithm
+
+<code>
+	void append():
+
+		1. Allocate node
+
+		2. Put in the data
+
+		3. This new node is the last node, therefore, we set its next to NULL
+
+		4. If the linked list is empty, make the new node as head
+
+		5. Else, traverse till the last node
+
+		6. Change the next of the last node
+</code>
+
+## Deleting an item from a linked list

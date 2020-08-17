@@ -4,14 +4,8 @@
 - [x] [Pointers and Function Arguments](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-function-arguments)
 - [x] [Pointers and Arrays](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#pointers-and-arrays)
 - [x] [Address Arithmetic](https://github.com/carrliitos/CPrograms/tree/master/TutorialIntroduction/PointersAndArrays#address-arithmetic)
-- [ ] Character Pointers and Functions
-- [ ] Pointer Arrays; Pointers to Pointers
-- [ ] Multi-dimensional Arrays
-- [ ] Initialization of Pointer Arrays
-- [ ] Pointers vs. Multi-dimensional Arrays
-- [ ] Command-line Arguments
-- [ ] Pointers to Functions
-- [ ] Complicated Declarations
+
+***Important: In C, the size of the array must be known beforehand. It is a fundamental property of arrays that their sizes are fixed and must be known before they are used.***
 
 ## What is a pointer?
 - `Pointer`

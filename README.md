@@ -24,6 +24,11 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 
 <code>$ a.out</code>
 
+#### *Some notations to consider:*
+- `->` is used in C to follow pointers through structures.
+	- We write a reference to a link followed by this symbol to indicate a reference to the node pointed to by that link.
+	- For example, `head->next->key` refers to the first item on a list, and `head->next->next->key` refers to the second.
+
 # Table of contents
 - [x] Basics
 	- [x] Getting Started
