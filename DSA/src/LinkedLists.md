@@ -72,3 +72,11 @@ void append():
 ## Searching a list
 - This can be iteratively or recursively, our [example](./ListLinked.c#L9) will show the recursive approach.
 	- Basically, let `x` be the item, and if `x` is in our list, it is either the first element (best case), or located in the smaller rest of the list (worst case O(n)). Eventually, we reduce the problem to searching in an empty list, which clearly cannot contain `x`.
+
+## Deletion from a list
+- This is somewhat more complicated
+	- First, find a pointer to the *predecessor* of the item to be deleted
+		- This is done recursively: [here](./ListLinked.c#L34)
+		- The predecessor is needed because it pointes to the doomed node, so its `next` pointer must be changed
+	- [Delete the node](./ListLinked.c#L48)
+- **IMPORTANT:** C requires explicit deallocation of memory, so we must `free` the deleted node after we are finished with it to return the memory to the system. (`free()` can be found in `stdlib.h` library)
