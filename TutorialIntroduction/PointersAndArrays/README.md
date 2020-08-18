@@ -61,15 +61,15 @@
 	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax
 - More Examples:
 	<code>
-		void main() {
-			
-			int a = 10;
 
-			int* ptr; // pointer declaration
+	void main() {	
+		int a = 10;
+	
+		int* ptr; // pointer declaration
 
-			ptr = &a; // pointer initialization
+		ptr = &a; // pointer initialization
+	}
 
-		}
 	</code>
 
 ### Pointers and Function Arguments
@@ -84,11 +84,13 @@
 - Example:
 
 	<code>
-		int a[10]; // we declare an array a of size 10
 
-		int* pa; // we declare pa as a pointer to an integer
+	int a[10]; // we declare an array a of size 10
+
+	int* pa; // we declare pa as a pointer to an integer
 		
-		pa = &a[0]; // we set pa to point to element 0 of a; that is, pa contains the address of a[0]
+	pa = &a[0]; // we set pa to point to element 0 of a; that is, pa contains the address of a[0]
+	
 	</code>
 
 ![pa assignment](./img/pa.png)
