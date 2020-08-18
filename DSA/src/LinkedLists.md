@@ -41,19 +41,14 @@ void push():
 
 #### Algorithm
 
-<code>
-	void insertAfter():
-
-		1. Check if the given previous node is NULL
-
-		2. Allocate new node
-
-		3. Put in the data
-
-		4. Make next of new node as next of previous nod
-
-		5. Move the next of previous node as the new node
-</code>
+```
+void insertAfter():
+	1. Check if the given previous node is NULL
+	2. Allocate new node
+	3. Put in the data
+	4. Make next of new node as next of previous nod
+	5. Move the next of previous node as the new node
+```
 
 ### Add a node ad the end
 - The new node is always added after the last node of the given Linked List.
@@ -64,21 +59,15 @@ void push():
 
 #### Algorithm
 
-<code>
-	void append():
-
-		1. Allocate node
-
-		2. Put in the data
-
-		3. This new node is the last node, therefore, we set its next to NULL
-
-		4. If the linked list is empty, make the new node as head
-
-		5. Else, traverse till the last node
-
-		6. Change the next of the last node
-</code>
+```
+void append():
+	1. Allocate node
+	2. Put in the data
+	3. This new node is the last node, therefore, we set its next to NULL
+	4. If the linked list is empty, make the new node as head
+	5. Else, traverse till the last node
+	6. Change the next of the last node
+```
 
 ## Searching a list
 - This can be iteratively or recursively, our [example](./ListLinked.c) will show the recursive approach.
