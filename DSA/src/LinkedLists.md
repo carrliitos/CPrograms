@@ -14,7 +14,7 @@
 
 - When rearranging the order of our list, we also rearrange our **links**
 
-## Insertion into a list [src](./LinkedListInsertions.c)
+## Insertion into a list [[src](./LinkedListInsertions.c)]
 ### At the front of the linked list
 - The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the Linked List.
 - For example if the given Linked List is `10->15->20->25` and we add an item 5 at the front, then the Linked List becomes `5->10->15->20->25`. 
@@ -69,11 +69,11 @@ void append():
 	6. Change the next of the last node
 ```
 
-## Searching a list [src](./ListLinked.c)
+## Searching a list [[src](./ListLinked.c)]
 - This can be iteratively or recursively, our [example](./ListLinked.c#L9) will show the recursive approach.
 	- Basically, let `x` be the item, and if `x` is in our list, it is either the first element (best case), or located in the smaller rest of the list (worst case O(n)). Eventually, we reduce the problem to searching in an empty list, which clearly cannot contain `x`.
 
-## Deletion from a list [src](./LinkedListInsertionAndDeletion.c)
+## Deletion from a list [[src](./LinkedListInsertionAndDeletion.c)]
 - This is somewhat more complicated
 	- First, find a pointer to the *predecessor* of the item to be deleted
 		- This is done recursively: [here](./ListLinked.c#L34)
