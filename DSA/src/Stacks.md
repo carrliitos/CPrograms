@@ -8,6 +8,7 @@ Besides these two operations, a stack can also support the following operations
 - `size()`: returns the number of items in the stack
 
 When imagining a stack, think of a stack of plates in school. We can only see the top of the stack, and the rest of the plates are abstracted. We can only take the top of the stack, and we can't reach the very bottom item, unless we take out all of the plates from the stack.
+
 ![Stack example](./img/stack.png)
 
 ### Pseudocode (*in C++/Java*)
