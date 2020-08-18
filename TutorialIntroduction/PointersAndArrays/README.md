@@ -20,9 +20,9 @@
 - A typical machine has an array of consecutively numbered or addressed memory cells that may be maniupualted individually or in contiguous groups
 - **A pointer is a group of cells that can hold an address**
 - Example:
-	
-	<code>p = &c;</code>
-
+```
+p = &c;
+```
 - This example shows that *we assign the address of **c** to the variable **p**, and **p** is said to "point to" **c***
 	- (very similar to how references work in JAVA)
 - The unary operator `*` is the *indirection* or *dereferencing* operator
@@ -43,19 +43,24 @@
 
 #### Summarizing `*` and `&`
 - **`*` abd `&` as *type modifiers***
-	- `int i` declares an int
-	- `int *p` declares a pointer to an int
-	- `int &r = 1` declares a reference to an int, and initializes it to reference `i`
-		- *C++ only. Note that references must be assignet at initialization, therefore `int &r`; is not possible*
+```
+int i; // declares an int
+int *p; // declares a pointer to an int
+int &r = 1; // declares a reference to an int, and initializes it to reference i
+/* C++ only. Note that references must be assignet at initialization, therefore int &r; is not possible */
+```
 - Similarly:
-	- `void foo(int i)` declares a function taking an int (by value, i.e. as a copy)
-	- `void foo(int *p)` declares a function taking a pointer to an int
-	- `void foo(int &r)` declares a function taking an int by reference (Again, C++ only)
-
+```
+void foo(int i); // declares a function taking an int (by value, i.e. as a copy)
+void foo(int *p); // declares a function taking a pointer to an int
+void foo(int &r); // declares a function taking an int by reference (Again, C++ only)
+```
 - **`*` and `&` as *operators***
-	- `foo(i)` calls `foo(int i)`. The parameter is passes as a copy
-	- `foo(*p)` derefences the int pointer `p` and calls `foo(int i)` with int pointer to by `p`
-	- `foo(&i)` takes the address of the int `i` and calls `foo(int *i)` with that address
+```
+foo(i); // calls foo(int i). The parameter is passed as a copy
+foo(*p); // derefences the int pointer p and calls foo(int i) with int pointer to by p
+foo(&i); // takes the address of the int i and calls foo(int *i) with that address
+```
 - (**tl;dr**):
 	- `*` can be either a dereference operator, or part of the pointer declaration syntax
 	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax
