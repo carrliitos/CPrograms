@@ -60,12 +60,17 @@
 	- `*` can be either a dereference operator, or part of the pointer declaration syntax
 	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax
 - More Examples:
+	<code>
+		void main() {
+			
+			int a = 10;
 
-`void main(){`
-`	int a = 10;`
-`	int *ptr; // pointer declaration`
-`	ptr = &a; // pointer initialization`
-`}`
+			int* ptr; // pointer declaration
+
+			ptr = &a; // pointer initialization
+
+		}
+	</code>
 
 ### Pointers and Function Arguments
 - C passes arguments to functions **by value**, therefore there is no direct way for the called function to alter the variable in the calling function. Hence, the function call `swap(a, b)`, where `swap()` is a function that swaps the values of both variables, is incorrect. 
@@ -80,7 +85,9 @@
 
 	<code>
 		int a[10]; // we declare an array a of size 10
+
 		int* pa; // we declare pa as a pointer to an integer
+		
 		pa = &a[0]; // we set pa to point to element 0 of a; that is, pa contains the address of a[0]
 	</code>
 
