@@ -5,17 +5,7 @@
 
 ### Elementary Data Structures
 - [Arrays](./src/ArrayNotes.md)
-	- Array positions
-		- [src](./src/ArrayPositions.c)
-		- [output](./src/outputTXT/ArrayPositions.txt)
-	- Sieve of Eratosthenes
-		- [src](./src/SieveOfEratosthenes.c)
-		- [output](./src/outputTXT/SieveOfEratosthenes.txt)
 - [Pointers and Linked Structures](./src/LinkedLists.md)
-	- All [Insertion methods](./src/LinkedListInsertions.c)
-	- *Note: This implementation gives me a stack smashing detected error. Disassembly can be found [here](./src/LinkedListInsertionsDisassembly.txt). I dont know how to debug this yet.*
-	- [Insertion and Deletion](./src/LinkedListInsertionAndDeletion.c)
-	- [Searching a list](./src/ListLinked.c)
 - [Stacks](./src/Stacks.md)
 - [Queues](./src/Queues.md)
 
