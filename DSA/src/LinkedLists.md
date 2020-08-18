@@ -70,5 +70,5 @@ void append():
 ```
 
 ## Searching a list
-- This can be iteratively or recursively, our [example](./ListLinked.c) will show the recursive approach.
+- This can be iteratively or recursively, our [example](./ListLinked.c#L9) will show the recursive approach.
 	- Basically, let `x` be the item, and if `x` is in our list, it is either the first element (best case), or located in the smaller rest of the list (worst case O(n)). Eventually, we reduce the problem to searching in an empty list, which clearly cannot contain `x`.
