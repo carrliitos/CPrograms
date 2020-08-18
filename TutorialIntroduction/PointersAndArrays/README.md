@@ -58,7 +58,14 @@
 	- `foo(&i)` takes the address of the int `i` and calls `foo(int *i)` with that address
 - (**tl;dr**):
 	- `*` can be either a dereference operator, or part of the pointer declaration syntax
-	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax	
+	- `&` can be either the address-of operator or (in C++) part of the reference declaration syntax
+- More Examples:
+
+`void main(){
+	int a = 10;
+	int *ptr; // pointer declaration
+	ptr = &a; // pointer initialization
+}`
 
 ### Pointers and Function Arguments
 - C passes arguments to functions **by value**, therefore there is no direct way for the called function to alter the variable in the calling function. Hence, the function call `swap(a, b)`, where `swap()` is a function that swaps the values of both variables, is incorrect. 
