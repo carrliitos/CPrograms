@@ -27,17 +27,13 @@
 Given a reference (pointer to pointer) to the head of the list and an int,
 inserts a new node on the front of the list.
 
-<code>
-	void push():
-
-		1. Allocate node
-
-		2. Put in the data
-
-		3. Make next of new node as head
-
-		4. Move the head to point to the new node
-</code>
+```
+void push():
+	1. Allocate node
+	2. Put in the data
+	3. Make next of new node as head
+	4. Move the head to point to the new node
+```
 
 ### Add a node after a given node
 - We are given pointer to a node, and the new node is inserted after the given node.
