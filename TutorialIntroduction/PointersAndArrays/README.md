@@ -62,13 +62,9 @@
 - More Examples:
 
 `void main(){`
-``
 `	int a = 10;`
-``
 `	int *ptr; // pointer declaration`
-``
 `	ptr = &a; // pointer initialization`
-``
 `}`
 
 ### Pointers and Function Arguments
