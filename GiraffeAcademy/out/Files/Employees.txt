@@ -1,0 +1,6 @@
+Reading the first line:
+Jim, Salesman
+
+Reading the second line:
+Pam, Receptionist
+

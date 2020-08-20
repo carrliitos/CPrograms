@@ -1,0 +1,6 @@
+Jim, Salesman
+Pam, Receptionist
+Oscar, Accounting
+Appended lines below:
+Kelly, Customer Service
+Michael, Manager

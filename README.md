@@ -1,12 +1,12 @@
 # C programming
 
 ### To compile:
-<code>$ gcc -o hello hello.c</code>
+<code>$ gcc -o hello.out hello.c</code>
 
-This command will invoke the GNU C compiler to compile the file hello.c and output (-o) the result to an executable called hello
+This command will invoke the GNU C compiler to compile the file hello.c and output (-o) the result to an executable called hello.out
 
 ### To execute:
-<code>$ ./hello</code>
+<code>$ ./hello.out</code>
 
 ### Optional Step:
 In order to avoid the ./prefix each time a program is to be executed, insert the following as the last line in the file .profile(located in your home folder):
@@ -45,6 +45,9 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 - [x] Memory Addresses
 - [x] Pointers [[src](./GiraffeAcademy/src/Pointers.c)]
 	- [x] Dereferencing Pointers [[src](./GiraffeAcademy/src/DereferencePointers.c)]
+- [x] Files [[src](./GiraffeAcademy/src/Files/Employees.c)]
+	- [x] Writing to files
+	- [x] Appending to files
 
 ### Things to remember
 - Single quotes (' ') can only hold a single character...
