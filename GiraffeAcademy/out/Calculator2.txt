@@ -1,0 +1,4 @@
+Enter your first number: 21
+Enter operator: +
+Enter your second number: 12
+33.00

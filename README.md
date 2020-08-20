@@ -32,8 +32,11 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 - [x] Dealing with Constants [[src](./GiraffeAcademy/src/Constants.c)]
 - [x] User input [[src](./GiraffeAcademy/src/UserInput.c)]
 - [x] User input (asking for array of char) [[src](./GiraffeAcademy/src/UserInput2.c)]
-- [x] Basic Calculator [[src](./GiraffeAcademy/src/Calculator.c)]
+- [x] Calculator 
+	- [x] Basic addition [[src](./GiraffeAcademy/src/Calculator.c)]
+	- [x] Fully functional [[src](./GiraffeAcademy/src/Calculator2.c)]
 - [x] Mad libs game [[src](./GiraffeAcademy/src/Madlibs.c)]
 - [x] Arrays [[src](./GiraffeAcademy/src/Arrays.c)]
 - [x] Functions [[src](./GiraffeAcademy/src/Functions.c)]
-	- [ ] Return statements [[src](./GiraffeAcademy/src/ReturnStatements.c)]
+	- [x] Return statements [[src](./GiraffeAcademy/src/ReturnStatements.c)]
+- [x] If-statements using max() [[src](./GiraffeAcademy/src/If_Max.c)]
