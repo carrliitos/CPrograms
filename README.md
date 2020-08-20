@@ -45,11 +45,11 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 ### Things to remember
 - Single quotes (' ') can only hold a single character...
 ```
-	char character = 'A';
+char character = 'A';
 ```
 whereas, double quotes (" ") can hold any amount of characters
 ```
-	char string[] = "A string of characters";
+char string[] = "A string of characters";
 ```
 - Use %lf for scanning floating points, and %f for printing floating points
 - Given an int
