@@ -41,7 +41,7 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 	- [x] Return statements [[src](./GiraffeAcademy/src/ReturnStatements.c)]
 - [x] If-statements using max() [[src](./GiraffeAcademy/src/If_Max.c)]
 - [x] Switch statements [[src](./GiraffeAcademy/src/SwitchStatements.c)]
-- [ ] Structs [[src](./GiraffeAcademy/src/Structs.c)]
+- [x] Structs [[src](./GiraffeAcademy/src/Structs.c)]
 
 ### Things to remember
 - Single quotes (' ') can only hold a single character...
