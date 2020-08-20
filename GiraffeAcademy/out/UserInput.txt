@@ -1,0 +1,2 @@
+Enter your age: 12
+You are 12 years old.

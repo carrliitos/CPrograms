@@ -29,3 +29,5 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 - [x] Variables [[src](./GiraffeAcademy/src/Variables.c)]
 - [x] Data Types [[src](./GiraffeAcademy/src/DataTypes.c)]
 - [x] Pritf [[src](./GiraffeAcademy/src/PrintFunction.c)]
+- [x] Dealing with Constants [[src](./GiraffeAcademy/src/Constants.c)]
+- [x] User input [[src](./GiraffeAcademy/src/UserInput.c)]
