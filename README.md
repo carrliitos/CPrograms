@@ -41,6 +41,7 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 	- [x] Return statements [[src](./GiraffeAcademy/src/ReturnStatements.c)]
 - [x] If-statements using max() [[src](./GiraffeAcademy/src/If_Max.c)]
 - [x] Switch statements [[src](./GiraffeAcademy/src/SwitchStatements.c)]
+- [ ] Structs [[src](./GiraffeAcademy/src/Structs.c)]
 
 ### Things to remember
 - Single quotes (' ') can only hold a single character...
@@ -64,3 +65,4 @@ To indicate pointer a ie. address of variable a:
 ```
 &a;
 ```
+- A **structure** is a value type so it is stored on the stack, but a **class** is a reference type and is stored on the heap. A **structure** doesn't support *inheritance*, and *polymorphism*, but a **class** supports both. By default, all the **struct** members are public but **class** members are by default private in nature.
