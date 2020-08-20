@@ -1,0 +1,8 @@
+Enter a color: Orange
+Enter a celebrity: Tom Petty
+Enter a food: lasagna
+
+Madlibs!
+Roses are Orange
+Tom Petty are blue
+I love lasagna

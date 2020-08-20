@@ -32,4 +32,5 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 - [x] Dealing with Constants [[src](./GiraffeAcademy/src/Constants.c)]
 - [x] User input [[src](./GiraffeAcademy/src/UserInput.c)]
 - [x] User input (asking for array of char) [[src](./GiraffeAcademy/src/UserInput2.c)]
-- [ ] Basic Calculator [[src](./GiraffeAcademy/src/Calculator.c)]
+- [x] Basic Calculator [[src](./GiraffeAcademy/src/Calculator.c)]
+- [x] Mad libs game [[src](./GiraffeAcademy/src/Madlibs.c)]
