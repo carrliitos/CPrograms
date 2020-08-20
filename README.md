@@ -27,4 +27,5 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 ### Table of Contents
 - [x] Hello world! [[src](./GiraffeAcademy/src/HelloWorld.c)]
 - [x] Variables [[src](./GiraffeAcademy/src/Variables.c)]
-- [ ] Data Types
+- [x] Data Types [[src](./GiraffeAcademy/src/DataTypes.c)]
+- [x] Pritf [[src](./GiraffeAcademy/src/PrintFunction.c)]
