@@ -25,4 +25,6 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 <code>$ a.out</code>
 
 ### Table of Contents
-- [ ] Hello world! [[src](./GiraffeAcademy/src/HelloWorld.c)]
+- [x] Hello world! [[src](./GiraffeAcademy/src/HelloWorld.c)]
+- [x] Variables [[src](./GiraffeAcademy/src/Variables.c)]
+- [ ] Data Types
