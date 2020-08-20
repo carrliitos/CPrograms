@@ -1,0 +1,3 @@
+Original value of variable age: 30
+Pointer memory address: 0x7ffcd88e73cc
+Dereferenced pointer: 30
