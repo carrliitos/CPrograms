@@ -52,3 +52,15 @@ whereas, double quotes (" ") can hold any amount of characters
 	char string[] = "A string of characters";
 ```
 - Use %lf for scanning floating points, and %f for printing floating points
+- Given an int
+```
+int a;
+```
+To declare a pointer to an int:
+```
+int *a;
+```
+To indicate pointer a ie. address of variable a:
+```
+&a;
+```
