@@ -1,6 +1,0 @@
-Value of a: 10
-Value of b: 11
-
-Temp: 10
-*px: 11
-*py: 10
