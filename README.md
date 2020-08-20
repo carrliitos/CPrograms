@@ -40,3 +40,15 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 - [x] Functions [[src](./GiraffeAcademy/src/Functions.c)]
 	- [x] Return statements [[src](./GiraffeAcademy/src/ReturnStatements.c)]
 - [x] If-statements using max() [[src](./GiraffeAcademy/src/If_Max.c)]
+- [x] Switch statements [[src](./GiraffeAcademy/src/SwitchStatements.c)]
+
+### Things to remember
+- Single quotes (' ') can only hold a single character...
+```
+	char character = 'A';
+```
+whereas, double quotes (" ") can hold any amount of characters
+```
+	char string[] = "A string of characters";
+```
+- Use %lf for scanning floating points, and %f for printing floating points
