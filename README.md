@@ -1,5 +1,7 @@
 # C programming
 
+> Benzon Carlitos Salazar
+
 ### To compile:
 <code>$ gcc -o hello.out hello.c</code>
 
