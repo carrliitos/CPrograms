@@ -26,6 +26,17 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 
 <code>$ a.out</code>
 
+### Compiling a program composed of multiple files
+Make sure to list them all in the command line. For example, a program contains the following files:
+- main.c
+- calculateArea.c
+
+To compile:
+
+<code>gcc -o main main.c calculateArea.c</code>
+
+With more complex setups, a Makefile is necessary to tell the compiler how to compile the program.
+
 ### Table of Contents
 - [x] Hello world! [[src](./GiraffeAcademy/src/HelloWorld.c)]
 - [x] Variables [[src](./GiraffeAcademy/src/Variables.c)]
