@@ -41,6 +41,7 @@ The compilation will proceed, and will make an executable file called `a.out`, t
 - [x] Arrays [[src](./GiraffeAcademy/src/Arrays.c)]
 - [x] Functions [[src](./GiraffeAcademy/src/Functions.c)]
 	- [x] Return statements [[src](./GiraffeAcademy/src/ReturnStatements.c)]
+	- [x] Function prototypes [[src](./GiraffeAcademy/src/ReturnStatements.c)]
 - [x] If-statements using max() [[src](./GiraffeAcademy/src/If_Max.c)]
 - [x] Switch statements [[src](./GiraffeAcademy/src/SwitchStatements.c)]
 - [x] Structs [[src](./GiraffeAcademy/src/Structs.c)]
