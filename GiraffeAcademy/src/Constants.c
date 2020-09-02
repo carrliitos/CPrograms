@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 // Constants = values that are unmodifiable
+
 /* They can also be defined with symbolic constants 
 	A #define line defines a symbolic name or symbolic constant to be a particular string of characters
 	Syntax:
