@@ -1,1 +1,3 @@
 5 is a constant.
+hello, world!
+This is using symbolic constants!
