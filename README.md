@@ -43,6 +43,7 @@ With more complex setups, a Makefile is necessary to tell the compiler how to co
 - [x] Data Types [[src](./GiraffeAcademy/src/DataTypes.c)]
 - [x] Printf [[src](./GiraffeAcademy/src/PrintFunction.c)]
 - [x] Dealing with Constants [[src](./GiraffeAcademy/src/Constants.c)]
+	- [x] #define [[src](./GiraffeAcademy/src/Constants.c#L6)]
 - [x] User input [[src](./GiraffeAcademy/src/UserInput.c)]
 - [x] User input (asking for array of char) [[src](./GiraffeAcademy/src/UserInput2.c)]
 - [x] Calculator 
