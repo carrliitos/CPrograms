@@ -6,6 +6,7 @@
 <code>$ gcc -o hello.out hello.c</code>
 
 This command will invoke the GNU C compiler to compile the file hello.c and output (-o) the result to an executable called hello.out
+sample.
 
 ### To execute:
 <code>$ ./hello.out</code>
